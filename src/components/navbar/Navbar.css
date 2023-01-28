@@ -1,0 +1,40 @@
+.app__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 60px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.app__navbar-logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.app__navbar-logo img {
+  height: 100%;
+  margin-right: 20px;
+}
+
+.app__navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.app__navbar-links li {
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+
+.app__navbar-links li a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.app__navbar-links li a:hover {
+  color: #0070f3;
+}
